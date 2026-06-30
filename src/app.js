@@ -12,7 +12,7 @@ configDotenv();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://tee-naturals-three.vercel.app/"],
+    origin: ["http://localhost:5173", "https://tee-naturals-three.vercel.app"],
     credentials: true,
   }),
 );
